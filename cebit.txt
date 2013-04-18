@@ -1,4 +1,4 @@
-<h1>My Day at Cebit </h1>
+My Day at Cebit 
 Robot Research Project people are very interessed was very nice to see
 Regarding Ubuntu  i devided that i will try to run a unbuntu server on my Windows Machine in an virtual box.
 So that i can fiddle around a bit with setting.
