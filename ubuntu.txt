@@ -1,5 +1,6 @@
-#sss
 #Ubuntu Server
+#### I set up a virtual machine running ubuntu server on my Windows 7 machine 
+[30.08.2013] 
 So i figured out how i could set up a linux based server inside of a virtual machine on my windows machine.
 The reason for this was that i wanted to do a bit of website development and get a better understanding of the underlying structure.
 First of all i ran into the following error.
