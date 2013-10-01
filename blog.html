@@ -1,78 +1,8 @@
 <html>
-<a href="http://www.anzumana.com">Back to homepage</a>
 <body >
+<a href="ark.html">ark </a>
 
 
-<h1>[Opinion]Drones in Science/ Fly and bring me Data</h1>
-
-<p>A fairly recent nature article covered UAVs <br />
-Unmanned arrieal vehicels and their possible contribution for the scientific community. 
-I don't go here over the whole articel but rather focus on one aspect that was kind interesting to me in regards to my owen resaerch. 
-When people used to create their robots to assist in their research they typically used a lot of different sensors. <br />
-This resulted in a very high cost since you have to buy every single sensor individually. <br />
-As you can imagine this would make research projects quite expensive. </p>
-
-<p>With  UAV's the additional problem is that you are limited by fuel and since you fly you rly have to make sure that you don't design something that ins potentiolly to hefavyto actually fly. 
-Therefore some started to use mostly cameras as the main sensor apart from gps. 
-And then they are able to run different image recognition algorithems . 
-This to me seemse like the way to go. </p>
-
-<p>For my owen research i will most likely use the kinect as the eyes for my machine. 
-Those will give me the option to get some. 3D orientation in asdition to the images themself. 
-Ok mounting the kinect on an uav is not rly my intetion since the robot i will be using will most likely be thea suro so its on the ground . 
-And since i don't have a background in electrical engineering this seemse like the most pratical . </p>
-
-<p>Go here for the full article from nature <br />
-<a href="http://www.nature.com/news/drones-in-science-fly-and-bring-me-data-1.13161">Drones in science: Fly, and bring me data</a>
-[30.08.2013]</p>
-<h1>Ubuntu Server</h1>
-<h4>I set up a virtual machine running ubuntu server on my Windows 7 machine</h4>
-<p>
-So i figured out how i could set up a linux based server inside of a virtual machine on my windows machine.
-The reason for this was that i wanted to do a bit of website development and get a better understanding of the underlying structure.
-First of all i ran into the following error.
-I downloaded the ubuntu distibution with long term support from the ubuntu website.
-As smart as ubuntu is they cheched what opperading system i was running to acess their website.
-Of couse i was using windows and not linux so the downloaded file was therfore the distibution designed to be installed on a windows machine not on a linux machine.
-So after a digging around a bit more i found this
-<a href=" http://cdimage.ubuntu.com/lubuntu/releases/12.04/release/ ">ubuntu iso image</a>
-<p>Other software u will need to set this up is a software that lets u create a virtual machine.
-I choose virtual box because and its open source and thereforce the obviouse choise for doing serious coding.
-After i got the system up and running i now had to get all the components i would need for doing some web develpment.
-These are most often summarised under LAMP <br />
-Linux / Apache / Mysql / Perl( or Python :D)
-with the apt-get command you should be able to get all the stuff u need.
-There is also a very good on the ubuntu website if you want a bit more help a long the way .</p>
-
-<p>Now I had a Virtual Machine with Ubuntu Server and Apache on it.
-The next steps are a bit more fiddeling around with the preferences of apache.
-Because you can access your local apache server from within your ubuntu but its much cooler to have acess to the sever from anywhere.
-Since i don't rly like the keyboard that i have hooked up to my windows computer i decided before i would go about changing settings, get a ssh connecting working.
-One of the errors i run into was ufw which is a firewall running on your ubuntu server make sure that u turn it of at your own risk :D.
-Then you need to enable port forwarding inside of your router so that incomming traffic gets forwarded to your linux machine.
-Here one vert importat thing is that you need to change a setting inside your virtual box inside the networking preferences.
-There should be an option to set it to bridge mode.
-That way your virtual host acts inside your local network like it would be a real computer with its own ip.
-To that ip you have to forward all incomming traffic from your router on port 22 .
-You can change this port if you like but at first this is the best and easier way.
-Because port 22 is the default port for all ssh connecions into your system.
-After this is done you can connect to your computer from any other pc with  a ssh cliet or a terminal that lets you use ssh.
-in case of mac that would mean </p>
-
-<p>$ ssh username@ipaddress
-You get a password promt and after u entered it correctly u can start coding remotely :D.
-Ok now we have set up the ubuntu and ssh.
-The next thing we have to to is enable port forwarding to put all stuff that get to our router at port 80 to be forwarded to our virtual machine.
-since you know how to set this up for your system with ssh this should be easier now.
-The configuration for your apache server that its working rly depends on what you want to set up. 
-So i can't rly help you there.
-One advice is to make sure u are using the correct commands which would be. <br />
-$ /etc/init.d/apache2 command
-If you do anything else there can occur errors just because of that reasong and those are the most annoying errors you could have.
-Also sometimes using the comand with sudo helps a lot  :D
-Happy Coding.</p>
-[30.08.2013]
-<br>
 
 <a href="http://www.anzumana.com">Back to homepage</a>
 </body>
