@@ -1,8 +1,0 @@
-
-<h1>Kinect Xbox 360</h1>
-After reading the Paper regarding Affective Computing by Roslinde Picard i decided i needed a way to catch user Input to create an artificial intelligence that is acutally smart
-As we all know trying to understand new things can be a bit long therefore i decided that i whant to join a project that covers kinect.
-Luckily at my University there is currently a Research Projects that uses the Kinect do develop some sort of Virtual Reality Application.
-I meet with the main Researcher in Charge of the Project and it seem as if i can participate.
-Looking forward to that.
-Also i went afterward to the Cebit where they showed a Robot that uses most of the same logic that we would have to use for the Kinect Project at the University.
