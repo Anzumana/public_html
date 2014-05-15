@@ -1,3 +1,8 @@
+/*border: 3px solid #f65a5b;*/
+/*use for debuggin */
+h1{
+	border:3px solid:#f65a5b;
+}
 body {
 	font-family: Arial, sans-serif;
 
@@ -8,7 +13,13 @@ body {
 	color:#F0F8FF;
 
 }
-a:link    {color:#000000;}
+a:link    {
+	color:#000000;
+	border: 3px solid #f65a5b;
+}
 a:visited {color:#000000;}
 a:hover   {color:white;}
 a:active  {color:#FFEAD5;}
+.nav li{
+	display:inline;
+}
