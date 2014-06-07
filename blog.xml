@@ -7,14 +7,26 @@
   <channel>
     <title>To whome it might concern</title>
     <link>www.anzumana.com/blog.html</link>
-    <description>Personal Blog of Anzumana Taal</description>
-    <pubDate>Sat, 07 Jun 2014 19:26:37 +0200</pubDate>
+    <description>My personal blog</description>
+    <pubDate>Sat, 07 Jun 2014 19:58:09 +0200</pubDate>
     <item>
-      <title>Ruby 1.9.2-p136 is released</title>
-      <link>http://www.ruby-lang.org/en/news/2010/12/25/ruby-1-9-2-p136-is-released/</link>
-      <pubDate>Sat, 07 Jun 2014 19:26:37 +0200</pubDate>
-      <dc:date>2014-06-07T19:26:37+02:00</dc:date>
+      <title>Ubuntu Server</title>
+      <link>http://www.anzumana.com/blog/2013_10_22_ubuntu.html</link>
+      <pubDate>Sat, 07 Jun 2014 19:58:09 +0200</pubDate>
+      <dc:date>2014-06-07T19:58:09+02:00</dc:date>
     </item>
-    <dc:date>2014-06-07T19:26:37+02:00</dc:date>
+    <item>
+      <title>Unmanned aerial vehicle</title>
+      <link>http://www.anzumana.com/blog/2013_10_22_uav.html</link>
+      <pubDate>Sat, 07 Jun 2014 19:58:09 +0200</pubDate>
+      <dc:date>2014-06-07T19:58:09+02:00</dc:date>
+    </item>
+    <item>
+      <title>Knowledge ark</title>
+      <link>http://www.anzumana.com/blog/2013_10_22_ark.html</link>
+      <pubDate>Sat, 07 Jun 2014 19:58:09 +0200</pubDate>
+      <dc:date>2014-06-07T19:58:09+02:00</dc:date>
+    </item>
+    <dc:date>2014-06-07T19:58:09+02:00</dc:date>
   </channel>
 </rss>
