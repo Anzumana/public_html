@@ -8,19 +8,22 @@
     <title>To whome it might concern</title>
     <link>http://www.anzumana.com/blog.html</link>
     <description>My personal blog</description>
-    <pubDate>Sat, 07 Jun 2014 20:08:25 +0200</pubDate>
+    <pubDate>Sat, 07 Jun 2014 20:14:46 +0200</pubDate>
     <item>
       <title>Ubuntu Server</title>
       <link>http://www.anzumana.com/blog/2013_10_22_ubuntu.html</link>
+      <description>Getting an Ubuntu Server running on an iMac inside of virtual box</description>
     </item>
     <item>
       <title>Unmanned aerial vehicle</title>
       <link>http://www.anzumana.com/blog/2013_10_22_uav.html</link>
+      <description>Thoughts on UAV's and possible usecases</description>
     </item>
     <item>
       <title>Knowledge ark</title>
       <link>http://www.anzumana.com/blog/2013_10_22_ark.html</link>
+      <description>My take on the idea of a knowledge ark</description>
     </item>
-    <dc:date>2014-06-07T20:08:25+02:00</dc:date>
+    <dc:date>2014-06-07T20:14:46+02:00</dc:date>
   </channel>
 </rss>
