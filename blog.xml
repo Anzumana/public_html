@@ -8,7 +8,12 @@
     <title>To whome it might concern</title>
     <link>http://www.anzumana.com/blog.html</link>
     <description>My personal blog</description>
-    <pubDate>Wed, 25 Jun 2014 22:27:46 +0200</pubDate>
+    <pubDate>Fri, 27 Jun 2014 11:42:33 +0200</pubDate>
+    <item>
+      <title>Google Glasses in Our Society</title>
+      <link>http://www.anzumana.com/blog/2014_06_27_googleglasses.html</link>
+      <description>my take on it</description>
+    </item>
     <item>
       <title>Xcode Server for Continuous Integration</title>
       <link>http://www.anzumana.com/blog/2014_06_25_continuousintegration.html</link>
@@ -34,6 +39,6 @@
       <link>http://www.anzumana.com/blog/2013_10_22_ark.html</link>
       <description>My take on the idea of a knowledge ark</description>
     </item>
-    <dc:date>2014-06-25T22:27:46+02:00</dc:date>
+    <dc:date>2014-06-27T11:42:33+02:00</dc:date>
   </channel>
 </rss>
