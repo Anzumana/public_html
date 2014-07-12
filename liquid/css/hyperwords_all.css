@@ -1,0 +1,631 @@
+
+/* css file jquery.contextmenu.css */ 
+
+/* Generic context menu styles */
+.contextMenu {
+	position: absolute;
+	z-index: 2147483646;
+	display: none;
+}
+
+#hw_linkpreview {
+	position: absolute;
+	z-index: 99999999;
+	display: none;
+}
+
+
+/* css file hw-superfish.css */ 
+
+
+/*** ESSENTIAL STYLES ***/
+.hw-sf-menu, .hw-sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.hw-sf-menu {
+	line-height:	1.0 ;
+}
+.hw-sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+        display: none;                /*add 01.12.2010*/
+}
+.hw-sf-menu ul li {
+	width:			100%;
+}
+.hw-sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+
+.hw-sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.hw-sf-menu li a {
+	display:		block;
+	position:		relative;
+}
+
+.hw-sf-menu li:hover ul,
+.hw-sf-menu li.hw-sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+
+ul.hw-sf-menu li:hover li ul,
+ul.hw-sf-menu li.hw-sfHover li ul {
+	top:			-999em;
+}
+
+ul.hw-sf-menu li li:hover ul,
+ul.hw-sf-menu li li.hw-sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.hw-sf-menu li li:hover li ul,
+ul.hw-sf-menu li li.hw-sfHover li ul {
+	top:			-999em;
+}
+ul.hw-sf-menu li li li:hover ul,
+ul.hw-sf-menu li li li.hw-sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.hw-sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.hw-sf-menu a {
+	border-left:	1px solid #fff; 
+	border-top:		1px solid #E6E6E6;
+	padding: 		2px;
+	text-decoration:none;
+}
+.hw-sf-menu a, .hw-sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+}
+
+
+
+/*** arrows **/
+.hw-sf-menu a.hw-sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+
+
+/*** shadows for all but IE6 ***/
+.hw-sf-shadow ul {
+
+}
+.hw-sf-shadow ul.hw-sf-shadow-off {
+	
+}
+
+/* css file hw-superfish-vertical.css */ 
+
+/*** adding sf-vertical in addition to sf-menu creates a vertical menu ***/
+.hw-sf-vertical, .hw-sf-vertical li {
+	width:	10em;
+  overflow: visible;
+} 
+/* this lacks ul at the start of the selector, so the styles from the main CSS file override it where needed */ 
+.hw-sf-vertical li:hover ul,
+.hw-sf-vertical li.hw-sfHover ul {
+	left:	10em; /* match ul width */
+	top:	0;
+}
+
+/*** alter arrow directions ***/
+.hw-sf-vertical .hw-sf-sub-indicator { background-position: -10px 0; } /* IE6 gets solid image only */
+.hw-sf-vertical a > .hw-sf-sub-indicator { background-position: 0 0; } /* use translucent arrow for modern browsers*/
+
+
+/* css file hyperwords.css */ 
+
+
+#hwmenu, #hwmenu ul {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+}
+
+#hw-screenshot{
+    position:absolute;
+    border:1px solid #ccc;
+    background:#333;
+    padding:5px;
+    display:none;
+    color:#fff;
+}
+#hw-keyword-preview{
+    position:absolute;
+    border:1px solid #ccc;
+    background:#333;
+    padding:5px;
+    display:none;
+    color:#fff;
+}
+
+.hw_item_hide {
+    display: none !important;
+}
+
+.hw_item_show {
+    display: block;
+}
+
+/*background: rgb(255, 214, 0) none repeat scroll 0% 0% ! important;*/
+.hw-highlight-text {  background:none repeat scroll 0 0 #FFF700 !important; }
+.hw-hide-text { color: rgb(204, 204, 204); }
+.hw-lift-text { background:rgb(255, 214, 0);  }
+
+
+.hw_definitions_highlight{
+}
+.hw_definitions_highlight_mouseout{
+}
+.hw_definitions_highlight_mouseover{
+
+}
+
+.hwTitleLabel{
+    text-decoration: none;
+}
+
+.hwTitleLabelBottom{
+    text-decoration: none;
+}
+
+.hwTitleLabelBottom > a{
+    text-decoration: none;
+}
+
+.hwTitleLabel-hover{
+    text-decoration: underline;
+}
+
+.hwTitleLabelBottom-hover{
+    text-decoration: underline;
+}
+
+
+/********** RATE ******/
+/*
+#rates {
+    font-family: Georgia;
+    color: #343434;
+    width: 800px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 11pt;
+    text-align: left !important;
+}
+#rates #hh1 {
+    font-size: 12pt;
+}
+
+#rates #comment {
+    width: 700px !important;
+}
+
+#rates ul {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+#rates #rate label {
+    padding: 5px;
+}
+#rates #rate input {
+    padding: 10px;
+}
+#rates p {
+    margin-top: 5px;
+}
+
+#rates #rate {
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#rates #rate span {
+    padding-right: 10px;
+}
+*/
+/**********************/
+/*
+#rates { font-family:Georgia,Palatino,Times,serif; font-size:13px; margin:0px; background-color:#0a283f; background-image:url(../images/bgr.gif); height:100% }
+#rates .f-x1 { height:100% }
+#rates .f-x2 { height:1px }
+#rates .f-x3 { display:inline }
+#rates img { behavior: url("pngbehavior.htc"); }
+#rates div#PageDiv { height:100% }
+
+#rates button { margin:0px; border-style:none; padding:0px; background-color:transparent; vertical-align:top }
+#rates p:first-child { margin-top:0px }
+#rates table { empty-cells:hide }
+#rates .f-sp { font-size:1px; visibility:hidden }
+#rates .f-lp { margin-bottom:0px }
+#rates .f-fp  { margin-top:0px }
+#rates .f-x1 {  }
+#rates .f-x2 {  }
+#rates .f-x3 {  }
+#rates em { font-style:italic }
+#rates h1 { color:#fff; font-weight:bold; font-size:20px; text-align:center }
+#rates h1:first-child { margin-top:0px }
+#rates h2 { font-weight:bold; font-size:16px }
+#rates h2:first-child { margin-top:0px }
+#rates h3 { font-weight:bold; font-size:14px }
+#rates h3:first-child { margin-top:0px }
+#rates strong { font-weight:bold }
+#rates #comment { height:51px; width:428px; }
+#rates #rate_email { height:20px; width:285px; }
+#rates #button { height:21px; width:112px; }*/
+/************************************************************/
+#rates { color:#fff; margin:0px; background-color:#fff; background-image:url(../images/bgr.gif); height:100% }
+#rates form { margin:0px }
+#rates img { margin:0px; border-style:none }
+#rates button { margin:0px; border-style:none; padding:0px; background-color:transparent; vertical-align:top }
+#ratesp:first-child { margin-top:0px }
+#rates table  { empty-cells:hide }
+#rates .f-sp { font-size:1px; visibility:hidden }
+#rates .f-lp { margin:0px }
+#rates .f-fp { margin-top:0px }
+#rates .f-x1 {  }
+#rates .f-x2 {  }
+#rates .f-x3 {  }
+#rates #ratings { color:#000; font-family:Georgia,Palatino,Times,serif; font-size:14px }
+#rates em { font-style:italic }
+#rates h1 { font-weight:bold; font-size:18px }
+#rates h1:first-child { margin-top:0px }
+#rates h2 { font-weight:bold; font-size:16px }
+#rates h2:first-child { margin-top:0px }
+#rates h3 { font-weight:bold; font-size:14px }
+#rates h3:first-child { margin-top:0px }
+#rates strong { font-weight:bold }
+#rates #comment { height:136px; width:427px; }
+#rates #commentmessage { height:136px; width:427px; }
+#rates #rateemail { height:20px; width:427px; }
+#rates #donebtn { height:21px; width:82px; }
+
+/* css file colorbox.css */ 
+
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:999999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; overflow:hidden;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+/* 
+    Example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay{background:#333333 0 0 repeat;}
+#colorbox{}
+    #cboxTopLeft{width:21px; height:21px; background:url(../images/controls.png) -100px 0 no-repeat;}
+    #cboxTopRight{width:21px; height:21px; background:url(../images/controls.png) -129px 0 no-repeat;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(../images/controls.png) -100px -29px no-repeat;}
+    #cboxBottomRight{width:21px; height:21px; background:url(../images/controls.png) -129px -29px no-repeat;}
+    #cboxMiddleLeft{width:21px; background:url(../images/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(../images/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(../images/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(../images/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:3px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:3px; left:58px; color:#949494;}
+        #cboxSlideshow{position:absolute; bottom:3px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0px; background:url(../images/controls.png) -75px 0px no-repeat; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious.hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(../images/controls.png) -50px 0px no-repeat; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext.hover{background-position:-50px -25px;}
+        #cboxLoadingOverlay{background:url(../images/loading_background.png) center center no-repeat;}
+        #cboxLoadingGraphic{background:url(../images/loading.gif) center center no-repeat;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(../images/controls.png) -25px 0px no-repeat; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose.hover{background-position:-25px -25px;}
+
+/*
+    The following fixes png-transparency for IE6.  
+    It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
+    
+    Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
+    Colorbox preloads navigation hover classes to account for this.
+    
+    !! Important Note: AlphaImageLoader src paths are relative to the HTML document,
+    while regular CSS background images are relative to the CSS document.
+*/
+.cboxIE #cboxTopLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderTopLeft.png, sizingMethod='scale');}
+.cboxIE #cboxTopCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderTopCenter.png, sizingMethod='scale');}
+.cboxIE #cboxTopRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderTopRight.png, sizingMethod='scale');}
+.cboxIE #cboxBottomLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderBottomLeft.png, sizingMethod='scale');}
+.cboxIE #cboxBottomCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderBottomCenter.png, sizingMethod='scale');}
+.cboxIE #cboxBottomRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderBottomRight.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderMiddleLeft.png, sizingMethod='scale');}
+.cboxIE #cboxMiddleRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../images/internet_explorer/borderMiddleRight.png, sizingMethod='scale');}
+
+/* css file jquery.impromptu.css */ 
+
+/*
+------------------------------
+	Impromptu's
+------------------------------
+*/
+.jqifade{
+	position: absolute;
+	background-color: #aaaaaa;
+}
+div.jqi{
+	width: 400px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	position: absolute;
+	background-color: #ffffff;
+	font-size: 11px;
+	text-align: left;
+	border: solid 1px #eeeeee;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 7px;
+}
+div.jqi .jqicontainer{
+	font-weight: bold;
+}
+div.jqi .jqiclose{
+	position: absolute;
+	top: 4px; right: -2px;
+	width: 18px;
+	cursor: default;
+	color: #bbbbbb;
+	font-weight: bold;
+}
+div.jqi .jqimessage{
+	padding: 10px;
+	line-height: 20px;
+	color: #444444;
+}
+div.jqi .jqibuttons{
+	text-align: right;
+	padding: 5px 0 5px 0;
+	border: solid 1px #eeeeee;
+	background-color: #f4f4f4;
+}
+div.jqi button{
+	padding: 3px 10px;
+	margin: 0 10px;
+	background-color: #2F6073;
+	border: solid 1px #f4f4f4;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.jqi button:hover{
+	background-color: #728A8C;
+}
+div.jqi button.jqidefaultbutton{
+	/*background-color: #8DC05B;*/
+	background-color: #BF5E26;
+}
+.jqiwarning .jqi .jqibuttons{
+	background-color: #BF5E26;
+}
+
+/*
+------------------------------
+	impromptu
+------------------------------
+*/
+.impromptuwarning .impromptu{ background-color: #aaaaaa; }
+.impromptufade{
+	position: absolute;
+	background-color: #ffffff;
+}
+div.impromptu{
+    position: absolute;
+	background-color: #cccccc;
+	padding: 10px;
+	width: 300px;
+	text-align: left;
+}
+div.impromptu .impromptuclose{
+    float: right;
+    margin: -35px -10px 0 0;
+    cursor: pointer;
+    color: #213e80;
+}
+div.impromptu .impromptucontainer{
+	background-color: #213e80;
+	padding: 5px;
+	color: #ffffff;
+	font-weight: bold;
+}
+div.impromptu .impromptumessage{
+	background-color: #415ea0;
+	padding: 10px;
+}
+div.impromptu .impromptubuttons{
+	text-align: center;
+	padding: 5px 0 0 0;
+}
+div.impromptu button{
+	padding: 3px 10px 3px 10px;
+	margin: 0 10px;
+}
+
+/*
+------------------------------
+	columns ex
+------------------------------
+*/
+.colsJqifadewarning .colsJqi{ background-color: #b0be96; }
+.colsJqifade{
+	position: absolute;
+	background-color: #ffffff;
+}
+div.colsJqi{
+    position: absolute;
+	background-color: #d0dEb6;
+	padding: 10px;
+	width: 400px;
+	text-align: left;
+}
+div.colsJqi .colsJqiclose{
+    float: right;
+    margin: -35px -10px 0 0;
+    cursor: pointer;
+    color: #bbbbbb;
+}
+div.colsJqi .colsJqicontainer{
+	background-color: #e0eEc6;
+	padding: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	height: 160px;
+}
+div.colsJqi .colsJqimessage{
+	background-color: #c0cEa6;
+	padding: 10px;
+	width: 280px;
+	height: 140px;
+	float: left;
+}
+div.colsJqi .jqibuttons{
+	text-align: center;
+	padding: 5px 0 0 0;
+}
+div.colsJqi button{
+	background: url(../images/button_bg.jpg) top left repeat-x #ffffff;
+	border: solid #777777 1px;
+	font-size: 12px;
+	padding: 3px 10px 3px 10px;
+	margin: 5px 5px 5px 10px;
+	width: 75px;
+}
+div.colsJqi button:hover{
+	border: solid #aaaaaa 1px;
+}
+
+/*
+------------------------------
+	brown theme
+------------------------------
+*/
+.brownJqiwarning .brownJqi{ background-color: #cccccc; }
+.brownJqifade{
+	position: absolute;
+	background-color: #ffffff;
+}
+div.brownJqi{
+	position: absolute;
+	background-color: transparent;
+	padding: 10px;
+	width: 300px;
+	text-align: left;
+}
+div.brownJqi .brownJqiclose{
+    float: right;
+    margin: -20px 0 0 0;
+    cursor: pointer;
+    color: #777777;
+    font-size: 11px;
+}
+div.brownJqi .brownJqicontainer{
+	position: relative;
+	background-color: transparent;
+	border: solid 1px #5F5D5A;
+	color: #ffffff;
+	font-weight: bold;
+}
+div.brownJqi .brownJqimessage{
+	position: relative;
+	background-color: #F7F6F2;
+	border-top: solid 1px #C6B8AE;
+	border-bottom: solid 1px #C6B8AE;
+}
+div.brownJqi .brownJqimessage h3{
+	background: url(../images/brown_theme_gradient.jpg) top left repeat-x #ffffff;
+	margin: 0;
+	padding: 7px 0 7px 15px;
+	color: #4D4A47;
+}
+div.brownJqi .brownJqimessage p{
+	padding: 10px;
+	color: #777777;
+}
+div.brownJqi .brownJqimessage img.helpImg{
+	position: absolute;
+	bottom: -25px;
+	left: 10px;
+}
+div.brownJqi .brownJqibuttons{
+	text-align: right;
+}
+div.brownJqi button{
+	background: url(../images/brown_theme_gradient.jpg) top left repeat-x #ffffff;
+	border: solid #777777 1px;
+	font-size: 12px;
+	padding: 3px 10px 3px 10px;
+	margin: 5px 5px 5px 10px;
+}
+div.brownJqi button:hover{
+	border: solid #aaaaaa 1px;
+}
+
+/*
+*------------------------
+*   clean blue ex
+*------------------------
+*/
+.cleanbluewarning .cleanblue{ background-color: #acb4c4; }
+.cleanbluefade{ position: absolute; background-color: #aaaaaa; }
+div.cleanblue{ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; position: absolute; background-color: #ffffff; width: 300px; font-size: 11px; text-align: left; border: solid 1px #213e80; }
+div.cleanblue .cleanbluecontainer{ background-color: #ffffff; border-top: solid 14px #213e80; padding: 5px; font-weight: bold; }
+div.cleanblue .cleanblueclose{ float: right; width: 18px; cursor: default; margin: -19px -12px 0 0; color: #ffffff; font-weight: bold; }
+div.cleanblue .cleanbluemessage{ padding: 10px; line-height: 20px; font-size: 11px; color: #333333; }
+div.cleanblue .cleanbluebuttons{ text-align: right; padding: 5px 0 5px 0; border: solid 1px #eeeeee; background-color: #f4f4f4; }
+div.cleanblue button{ padding: 3px 10px; margin: 0 10px; background-color: #314e90; border: solid 1px #f4f4f4; color: #ffffff; font-weight: bold; font-size: 12px; }
+div.cleanblue button:hover{ border: solid 1px #d4d4d4; }
+
+/*
+*------------------------
+*   Ext Blue Ex
+*------------------------
+*/
+.extbluewarning .extblue{ border:1px red solid; }
+.extbluefade{ position: absolute; background-color: #ffffff; }
+div.extblue{ border:1px #6289B6 solid; position: absolute; background-color: #CAD8EA; padding: 0; width: 300px; text-align: left; }
+div.extblue .extblueclose{ background-color: #CAD8EA; margin:2px -2px 0 0; cursor: pointer; color: red; text-align: right; }
+div.extblue .extbluecontainer{ background-color: #CAD8EA; padding: 0 5px 5px 5px; color: #000000; font:normal 11px Verdana; }
+div.extblue .extbluemessage{ background-color: #CAD8EA; padding: 0; margin:0 15px 15px 15px; }
+div.extblue .extbluebuttons{ text-align: center; padding: 0px 0 0 0; }
+div.extblue button{ padding: 1px 4px; margin: 0 10px; background-color:#cccccc; font-weight:normal; font-family:Verdana; font-size:10px; }
+
+/*
+*------------------------
+*   smooth Ex
+*------------------------
+*/
+.jqismoothfade{ position: absolute; background-color: #333333; }
+div.jqismooth{ width: 350px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; position: absolute; background-color: #ffffff; font-size: 11px; text-align: left; border: solid 3px #e2e8e6; -moz-border-radius: 10px; -webkit-border-radius: 10px; padding: 7px; }
+div.jqismooth .jqismoothcontainer{ font-weight: bold; }
+div.jqismooth .jqismoothclose{ position: absolute; top: 0; right: 0; width: 18px; cursor: default; text-align: center; padding: 2px 0 4px 0; color: #727876; font-weight: bold; background-color: #e2e8e6; -moz-border-radius-bottomLeft: 5px; -webkit-border-bottom-left-radius: 5px; border-left: solid 1px #e2e8e6; border-bottom: solid 1px #e2e8e6;  }
+div.jqismooth .jqismoothmessage{ padding: 10px; line-height: 20px; color: #444444; }
+div.jqismooth .jqismoothbuttons{ text-align: right; padding: 5px 0 5px 0; border: solid 1px #e2e8e6; background-color: #f2f8f6; }
+div.jqismooth button{ padding: 3px 10px; margin: 0 10px; background-color: #2F6073; border: solid 1px #f4f4f4; color: #ffffff; font-weight: bold; font-size: 12px; }
+div.jqismooth button:hover{ background-color: #728A8C; }
+div.jqismooth button.jqismoothdefaultbutton{ background-color: #BF5E26; }
+.jqismoothwarning .jqismooth .jqismoothbuttons{ background-color: #BF5E26; }
