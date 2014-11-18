@@ -6,6 +6,7 @@
 	<link href="css/bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="website.css" rel="stylesheet">
 <meta name="liquid" content="v1.0" />
+</head>
 <script src="/liquid/js/jquery-1.4.4.min.js" type="text/javascript"></script>
 <script language="JavaScript">
             jQuery.hw_language = "en";
@@ -13,5 +14,4 @@
             jQuery.hw_customerID = 'liquid';
         </script>
  <script type="text/javascript" src="/liquid/settings/liquid/liquid.js"></script>
-</head>
 '?>
