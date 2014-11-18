@@ -1,5 +1,6 @@
 <?php 
 echo '
-<script src="googleanalytics.js">
-</script> <script src="liquid.js"></script>'
+<script src="googleanalytics.js"></script> 
+<script src="liquid.js"></script>'
+sdfsdfsdfsdfsdfsdfsdf
 ?>
