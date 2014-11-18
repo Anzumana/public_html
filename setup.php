@@ -1,5 +1,5 @@
 <?php 
 echo '
-<script src="googleanalytics.js"></script> 
+<script src="the_internet_defense_league.js"></script> 
 '
 ?>
