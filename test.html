@@ -1,11 +1,32 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>Digital Clock</title>
+<script>
+	function displayTime() {
+		var now = new Date();
+		var elt = document.getElementById("clock");
+		elt.innerHTML = now.toLocaleTimeString();
+		setTimeout(displayTime, 1000);
+	}
+	window.onload = displayTime;
+</script>
+<style >
+#clock {
+	font: bold 24pt sans;
+	background: #ddf;
+	padding:10px;
+	border:solid black 2px;
+	border-radius:10px;
+}
+</style>
+</head>
+
 <body>
 
-<div class="menu">
-<?php include 'menu.php';?>
-</div>
 
-<h1>Welcome to my home page!</h1>
+<h1>Digital Clock</h1>
+<span id="clock"></span>
 <p>Some text.</p>
 <p>Some more text.</p>
 
