@@ -3,7 +3,6 @@ echo '
 <ul class="nav nav-pills">
 	<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
 			<li><a href="blog.html">Blog</a></li>
-			<li><a href="http://blog.anzumana.com">New Blog ( still in Development )</a></li>
 			<li><a href="http://www.theprojectcast.com">Podcast</a></li>
 			<li><a href="projects.html">Projects</a></li>
 			<li><a href="http://de.wikipedia.org/wiki/RSS">FAQ</a></li>
