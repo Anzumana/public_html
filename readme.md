@@ -6,3 +6,11 @@ check in what files things need fixing
 #Deploy
 make sure no fixme statements are inside the repository
 
+
+
+Use Rewrite Engine for Backwards Compitability with old link
+[apache Docs on Rewrite](http://httpd.apache.org/docs/2.4/rewrite/remapping.html)
+
+RewriteEngine  on
+RewriteRule    "^/foo\.html$"  "bar.html"  [R]
+
