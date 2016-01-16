@@ -12,16 +12,14 @@ I will be adding other repos her.
 -----
 Jekyll Blog Travis CI
 [![Build Status](https://travis-ci.org/Anzumana/anzumana.github.io.svg?branch=master)](https://travis-ci.org/Anzumana/anzumana.github.io). 
-
-FAQ:
-Why don't you have 1 main repo where all the stuff for the website goes?
-I use different stacks for different part of my website so i can try all the new cool stuff.
-
-
-
+#Notes
 Use Rewrite Engine for Backwards Compitability with old link
 [apache Docs on Rewrite](http://httpd.apache.org/docs/2.4/rewrite/remapping.html)
 
 RewriteEngine  on
-RewriteRule    "^/foo\.html$"  "bar.html"  [R]
+RewriteRule    "^/foo\.html$"  "bar.html" 
+
+FAQ:
+Why don't you have 1 main repo where all the stuff for the website goes?
+I use different stacks for different part of my website so i can try all the new cool stuff.
 
