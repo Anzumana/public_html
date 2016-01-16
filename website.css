@@ -1,13 +1,23 @@
 /*border: 3px solid #f65a5b;*/
 /*use for debuggin */
 body {
+
+}
+#main{
+
 	font-family: Arial, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	width: 700px;
 	font-color:#000000;
-/*	background-image: url('images/low_contrast_linen_@2X.png'); */
-
+	width: 700px;
+	/*	background-image: url('images/low_contrast_linen_@2X.png'); */
+}
+h1{
+	z-index:100;
+	color:white;
+	position:relative;
+	text-align:center;
+	top:35%;
 }
 a:link    {color:#000000; }
 a:visited {color:#000000;}
@@ -16,4 +26,59 @@ a:active  {color:#FF00FF;}
 
 .nav li{
 	display:inline;
+}
+.code{
+	font-family: Hack, monospace;
+}
+.anzumanaIcon{
+	vertical-align: middle;
+	z-index:150;
+	width: 200px;
+  height: 200px;
+	position:relative;
+}
+
+
+
+/*not mine */
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
 }

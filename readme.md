@@ -17,3 +17,11 @@ FAQ:
 Why don't you have 1 main repo where all the stuff for the website goes?
 I use different stacks for different part of my website so i can try all the new cool stuff.
 
+
+
+Use Rewrite Engine for Backwards Compitability with old link
+[apache Docs on Rewrite](http://httpd.apache.org/docs/2.4/rewrite/remapping.html)
+
+RewriteEngine  on
+RewriteRule    "^/foo\.html$"  "bar.html"  [R]
+
