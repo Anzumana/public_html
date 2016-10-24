@@ -1,3 +1,4 @@
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/459/badge)](https://bestpractices.coreinfrastructure.org/projects/459)
 #Anzumana.com
 This is the  website code repo for anzumana.com
 The individual Components to make the site work are :
@@ -33,3 +34,4 @@ RewriteRule    "^/foo\.html$"  "bar.html"
 FAQ:
 Why don't you have 1 main repo where all the stuff for the website goes?
 I use different stacks for different part of my website so i can try all the new cool stuff.
+
