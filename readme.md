@@ -1,4 +1,6 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/459/badge)](https://bestpractices.coreinfrastructure.org/projects/459)
+Jekyll Blog Travis CI
+[![Build Status](https://travis-ci.org/Anzumana/anzumana.github.io.svg?branch=master)](https://travis-ci.org/Anzumana/anzumana.github.io). 
 #Anzumana.com
 This is the  website code repo for anzumana.com
 The individual Components to make the site work are :
@@ -11,8 +13,6 @@ The individual Components to make the site work are :
 
 I will be adding other repos her.
 -----
-Jekyll Blog Travis CI
-[![Build Status](https://travis-ci.org/Anzumana/anzumana.github.io.svg?branch=master)](https://travis-ci.org/Anzumana/anzumana.github.io). 
 #Notes
 Use Rewrite Engine for Backwards Compitability with old link
 [apache Docs on Rewrite](http://httpd.apache.org/docs/2.4/rewrite/remapping.html)
