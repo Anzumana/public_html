@@ -1,4 +1,4 @@
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/459/badge)](https://bestpractices.coreinfrastructure.org/projects/459)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/459/badge)](https://bestpractices.coreinfrastructure.org/projects/459) 
 Jekyll Blog Travis CI
 [![Build Status](https://travis-ci.org/Anzumana/anzumana.github.io.svg?branch=master)](https://travis-ci.org/Anzumana/anzumana.github.io). 
 #Anzumana.com
